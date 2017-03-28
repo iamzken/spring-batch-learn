@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<report1>
+    <record date="2017/1/17">
+        <impressions>mkyong</impressions>
+        <clicks>31</clicks>
+        <earnings>1982</earnings>
+    </record>
+    <record date="2017/2/17">
+        <impressions>kkwong</impressions>
+        <clicks>30</clicks>
+        <earnings>1983</earnings>
+    </record>
+    <record date="2017/3/17">
+        <impressions>joel</impressions>
+        <clicks>29</clicks>
+        <earnings>1984</earnings>
+    </record>
+    <record date="2017/4/17">
+        <impressions>leeyy</impressions>
+        <clicks>29</clicks>
+        <earnings>1984</earnings>
+    </record>
+</report1>
