@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="167.566" errors="0" skipped="0" tests="1" name="com.geekcap.javaworld.TestJob">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.7.0_80\jre\bin"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\kenan.zhang\Downloads\spring-batch-example"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\kenan.zhang\Downloads\spring-batch-example"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.7.0_80\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="D:\kenan.zhang\Downloads\spring-batch-example\target\surefire\surefirebooter9160008327902621462.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\KENAN~1.ZHA\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Java\jdk1.7.0_80\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oraclexe\app\oracle\product\11.2.0\server\bin;D:\software_installed\apache-maven-3.3.9\bin;E:\jad;E:\go1.7.1.windows-amd64\go\bin;D:\Python35-32\Scripts;D:\Python35-32;D:\Java\jdk1.8.0_60_64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\nodejs\;E:\scala\bin;C:\Program Files (x86)\scala\bin;E:\Groovy\Groovy-2.4.7\bin;E:\Git\cmd;E:\QuickTime\QTSystem\;E:\TortoiseGit\bin;E:\TortoiseSVN\bin;E:\UltraCompare;C:\Windows\SysWOW64\;C:\Windows\SYSWOW64;E:\Ruby23\bin;E:\SSH-Secure-Shell;D:\kenan.zhang\Application Data\npm;E:\Microsoft-VS-Code\bin;E:\Boot2DockerforWindows;."/>
+    <property name="surefire.test.class.path" value="D:\kenan.zhang\Downloads\spring-batch-example\target\test-classes;D:\kenan.zhang\Downloads\spring-batch-example\target\classes;E:\m2_repo\org\springframework\spring-context\3.2.9.RELEASE\spring-context-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\spring-aop\3.2.9.RELEASE\spring-aop-3.2.9.RELEASE.jar;E:\m2_repo\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\m2_repo\org\springframework\spring-expression\3.2.9.RELEASE\spring-expression-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\spring-core\3.2.9.RELEASE\spring-core-3.2.9.RELEASE.jar;E:\m2_repo\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;E:\m2_repo\org\springframework\spring-beans\3.2.9.RELEASE\spring-beans-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\spring-jdbc\3.2.9.RELEASE\spring-jdbc-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\spring-tx\3.2.9.RELEASE\spring-tx-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\batch\spring-batch-core\2.2.7.RELEASE\spring-batch-core-2.2.7.RELEASE.jar;E:\m2_repo\com\thoughtworks\xstream\xstream\1.3\xstream-1.3.jar;E:\m2_repo\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;E:\m2_repo\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;E:\m2_repo\org\springframework\batch\spring-batch-infrastructure\2.2.7.RELEASE\spring-batch-infrastructure-2.2.7.RELEASE.jar;E:\m2_repo\org\springframework\retry\spring-retry\1.0.2.RELEASE\spring-retry-1.0.2.RELEASE.jar;E:\m2_repo\org\springframework\batch\spring-batch-test\2.2.7.RELEASE\spring-batch-test-2.2.7.RELEASE.jar;E:\m2_repo\org\springframework\spring-test\3.2.9.RELEASE\spring-test-3.2.9.RELEASE.jar;E:\m2_repo\commons-collections\commons-collections\3.2\commons-collections-3.2.jar;E:\m2_repo\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;E:\m2_repo\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;E:\m2_repo\commons-io\commons-io\2.4\commons-io-2.4.jar;E:\m2_repo\mysql\mysql-connector-java\5.1.27\mysql-connector-java-5.1.27.jar;E:\m2_repo\junit\junit\4.11\junit-4.11.jar;E:\m2_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="d:\kenan.zhang"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="kenan.zhang"/>
+    <property name="java.class.path" value="D:\kenan.zhang\Downloads\spring-batch-example\target\test-classes;D:\kenan.zhang\Downloads\spring-batch-example\target\classes;E:\m2_repo\org\springframework\spring-context\3.2.9.RELEASE\spring-context-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\spring-aop\3.2.9.RELEASE\spring-aop-3.2.9.RELEASE.jar;E:\m2_repo\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\m2_repo\org\springframework\spring-expression\3.2.9.RELEASE\spring-expression-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\spring-core\3.2.9.RELEASE\spring-core-3.2.9.RELEASE.jar;E:\m2_repo\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;E:\m2_repo\org\springframework\spring-beans\3.2.9.RELEASE\spring-beans-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\spring-jdbc\3.2.9.RELEASE\spring-jdbc-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\spring-tx\3.2.9.RELEASE\spring-tx-3.2.9.RELEASE.jar;E:\m2_repo\org\springframework\batch\spring-batch-core\2.2.7.RELEASE\spring-batch-core-2.2.7.RELEASE.jar;E:\m2_repo\com\thoughtworks\xstream\xstream\1.3\xstream-1.3.jar;E:\m2_repo\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;E:\m2_repo\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;E:\m2_repo\org\springframework\batch\spring-batch-infrastructure\2.2.7.RELEASE\spring-batch-infrastructure-2.2.7.RELEASE.jar;E:\m2_repo\org\springframework\retry\spring-retry\1.0.2.RELEASE\spring-retry-1.0.2.RELEASE.jar;E:\m2_repo\org\springframework\batch\spring-batch-test\2.2.7.RELEASE\spring-batch-test-2.2.7.RELEASE.jar;E:\m2_repo\org\springframework\spring-test\3.2.9.RELEASE\spring-test-3.2.9.RELEASE.jar;E:\m2_repo\commons-collections\commons-collections\3.2\commons-collections-3.2.jar;E:\m2_repo\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;E:\m2_repo\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;E:\m2_repo\commons-io\commons-io\2.4\commons-io-2.4.jar;E:\m2_repo\mysql\mysql-connector-java\5.1.27\mysql-connector-java-5.1.27.jar;E:\m2_repo\junit\junit\4.11\junit-4.11.jar;E:\m2_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Java\jdk1.7.0_80\jre"/>
+    <property name="sun.java.command" value="D:\kenan.zhang\Downloads\spring-batch-example\target\surefire\surefirebooter9160008327902621462.jar D:\kenan.zhang\Downloads\spring-batch-example\target\surefire\surefire5857848103733189364tmp D:\kenan.zhang\Downloads\spring-batch-example\target\surefire\surefire5404054448770916370tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.7.0_80\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.7.0_80\jre\lib\resources.jar;D:\Java\jdk1.7.0_80\jre\lib\rt.jar;D:\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;D:\Java\jdk1.7.0_80\jre\lib\jsse.jar;D:\Java\jdk1.7.0_80\jre\lib\jce.jar;D:\Java\jdk1.7.0_80\jre\lib\charsets.jar;D:\Java\jdk1.7.0_80\jre\lib\jfr.jar;D:\Java\jdk1.7.0_80\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="E:\m2_repo"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="167.236" classname="com.geekcap.javaworld.TestJob" name="testBatchJob"/>
+</testsuite>

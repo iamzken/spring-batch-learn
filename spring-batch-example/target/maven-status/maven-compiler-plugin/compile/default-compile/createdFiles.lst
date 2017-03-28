@@ -1,0 +1,8 @@
+com\geekcap\javaworld\springbatchexample\simple\tasklet\ArchiveProductImportFileTasklet.class
+com\geekcap\javaworld\springbatchexample\simple\processor\ProductItemProcessor.class
+com\geekcap\javaworld\App.class
+com\geekcap\javaworld\springbatchexample\simple\writer\ProductItemWriter.class
+com\geekcap\javaworld\springbatchexample\simple\writer\ProductItemWriter$1.class
+com\geekcap\javaworld\springbatchexample\simple\reader\ProductFieldSetMapper.class
+com\geekcap\javaworld\springbatchexample\simple\model\Product.class
+com\geekcap\javaworld\springbatchexample\simple\processor\ProductItemProcessor$1.class

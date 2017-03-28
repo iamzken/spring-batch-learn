@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:batch="http://www.springframework.org/schema/batch"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+                http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch.xsd">
+
+
+    <!-- Import our beans -->
+    <import resource="classpath:/applicationContext.xml" />
+    <bean class="org.springframework.batch.test.JobLauncherTestUtils"/>
+	<bean id="appJobExecutionListener" class="com.geekcap.javaworld.springbatchexample.simple.listener.AppJobExecutionListener"/>
+	<bean id="taskExecutor1" class="org.springframework.core.task.SimpleAsyncTaskExecutor"/>
+	<bean id="taskExecutor2" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+	    <property name="corePoolSize" value="30" />
+	   <property name="maxPoolSize" value="50" />
+	</bean>
+    <job id="simpleFileImportJob" xmlns="http://www.springframework.org/schema/batch">
+        <batch:listeners>
+			<batch:listener ref="appJobExecutionListener" />
+		</batch:listeners>
+        <step id="importFileStep" next="archiveFileStep">
+            <tasklet task-executor="taskExecutor2">
+                <chunk reader="productReader" processor="productProcessor" writer="productWriter" commit-interval="500" />
+            </tasklet>
+        </step>
+        <step id="archiveFileStep">
+            <tasklet ref="archiveFileTasklet" />
+        </step>
+    </job>
+
+</beans>

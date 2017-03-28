@@ -1,0 +1,7 @@
+D:\kenan.zhang\Downloads\spring-batch-example\src\main\java\com\geekcap\javaworld\App.java
+D:\kenan.zhang\Downloads\spring-batch-example\src\main\java\com\geekcap\javaworld\springbatchexample\simple\listener\AppJobExecutionListener.java
+D:\kenan.zhang\Downloads\spring-batch-example\src\main\java\com\geekcap\javaworld\springbatchexample\simple\reader\ProductFieldSetMapper.java
+D:\kenan.zhang\Downloads\spring-batch-example\src\main\java\com\geekcap\javaworld\springbatchexample\simple\processor\ProductItemProcessor.java
+D:\kenan.zhang\Downloads\spring-batch-example\src\main\java\com\geekcap\javaworld\springbatchexample\simple\tasklet\ArchiveProductImportFileTasklet.java
+D:\kenan.zhang\Downloads\spring-batch-example\src\main\java\com\geekcap\javaworld\springbatchexample\simple\writer\ProductItemWriter.java
+D:\kenan.zhang\Downloads\spring-batch-example\src\main\java\com\geekcap\javaworld\springbatchexample\simple\model\Product.java
